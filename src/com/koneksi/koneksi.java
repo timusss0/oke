@@ -13,7 +13,7 @@ public class koneksi {
         if (con == null){
             try{
                 String url = "jdbc:mysql://localhost/sekolah"; //namadatabase
-                String Nama = "root";
+                String Nama = "root"; //ini
                 String Password = "";
                DriverManager.registerDriver(new com.mysql.jdbc.Driver());
                con = DriverManager.getConnection(url, Nama, Password);
