@@ -37,6 +37,15 @@ public class model_mvc implements controller_mvc{
             System.out.println(e);
         }
     }
+
+    @Override
+    public void Baru(sabut but) throws SQLException {
+       but.txtNIS.setText("");
+       but.txtNama.setText("");
+       but.rblaki.setSelected(true);
+       but.cbjurusan.setSelectedIndex(0);
+       
+    }
     }
 
 

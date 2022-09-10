@@ -9,4 +9,5 @@ import java.sql.*;
 
 public interface controller_mvc {
      public void Simpan(sabut but) throws SQLException;
+     public void Baru(sabut but) throws SQLException;
 }
