@@ -49,7 +49,7 @@ public class model_mvc implements controller_mvc{
 
     @Override
     public void Ubah(sabut but) throws SQLException {
-     if (sabut.rblaki.isSelected()){
+     if (but.rblaki.isSelected()) {
          jk = "Laki-laki";
      } else{
          jk = "perempuan";
